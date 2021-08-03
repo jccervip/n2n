@@ -24,7 +24,7 @@ jobs:
             TARGET: armv7-unknown-linux-musleabihf
             COMPILER: arm-linux-gnueabihf-gcc-5
             LINKER: gcc-5-arm-linux-gnueabihf
-          - os: windows-latest
+          - os: self-hosted
             COMPILER: cl
             LINKER: cl
           - os: macos-latest
